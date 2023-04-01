@@ -37,3 +37,107 @@
    37  git remote -v
    38  git push origin master
    39  history
+ clear
+    2  apt update -y
+    3  clear
+    4  history
+    5  git version
+    6  git clone https://github.com/maruftech/DevOpsMaruf.git
+    7  ls -l
+    8  cd DevOpsMaruf
+    9  ls -la
+   10  cd ..
+   11  pwd
+   12  ls -la
+   13  cd DevOpsMaruf
+   14  ls -la
+   15  cd ..
+   16  mkdir project1
+   17  cd project1
+   18  git init
+   19  ls -la
+   20  touch file1.txt
+   21  vi file1.txt
+   22  git status
+   23  git branch
+   24  git add file1.txt
+   25  git status
+   26  git ls-files
+   27  git status
+   28  git commit -m "1st-commit"
+   29  git status
+   30  ls -l
+   31  git ls-files
+   32  git status
+   33  git log
+   34  git branch
+   35  git remote -v
+   36  git remote add origin https://github.com/maruftech/demo.git
+   37  git remote -v
+   38  git push origin master
+   39  history
+   40  clear
+   41  git logs
+   42  git log
+   43  vi file2.txt
+   44  ls -l
+   45  git ls-files
+   46  git status
+   47  git add file2.txt
+   48  git ls-files
+   49  git status
+   50  git commit -m "2nd commit"
+   51  git status
+   52  git ls-files
+   53  vi file2.txt
+   54  git status
+   55  git diff file2.txt
+   56  git add file2.txt
+   57  git status
+   58  git diff --staged file2.txt
+   59  git commit -m "3rd commit"
+   60  git log
+   61  git config --list
+   62  git config --global user.name "maruf"
+   63  git config --global user.email "marufeee.tech@gmail.com"
+   64  git config --list
+   65  vi file2.txt
+   66  git add file2.txt
+   67  git commit -m "4th commit"
+   68  git log
+   69  git log --oneline
+   70  git show bcdc129
+   71  ls -l
+   72  rm file1.txt
+   73  ls -l
+   74  git status
+   75  git restore file1.txt
+   76  ls -l
+   77  git status
+   78  git rm file1.txt
+   79  git ls-files
+   80  git status
+   81  git restore --staged file1.txt
+   82  git status
+   83  ls -l
+   84  git ls-files
+   85  git restore file1.txt
+   86  git status
+   87  git ls-files
+   88  git log --oneline
+   89  git show a8a0ac2
+   90  git revert a8a0ac2
+   91  git log --oneline
+   92  git show 45a9f63
+   93  git log --oneline
+   94  git reset a8a0ac2
+   95  git log --oneline
+   96  git status
+   97  git restore file2.txt
+   98  git status
+   99  git log --oneline
+  100  git show a8a0ac2
+  101  git reset --hard bcdc129
+  102  git log --oneline
+  103  git status
+  104  history
