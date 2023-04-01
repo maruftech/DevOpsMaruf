@@ -1,0 +1,39 @@
+   1  clear
+    2  apt update -y
+    3  clear
+    4  history
+    5  git version
+    6  git clone https://github.com/maruftech/DevOpsMaruf.git
+    7  ls -l
+    8  cd DevOpsMaruf
+    9  ls -la
+   10  cd ..
+   11  pwd
+   12  ls -la
+   13  cd DevOpsMaruf
+   14  ls -la
+   15  cd ..
+   16  mkdir project1
+   17  cd project1
+   18  git init
+   19  ls -la
+   20  touch file1.txt
+   21  vi file1.txt
+   22  git status
+   23  git branch
+   24  git add file1.txt
+   25  git status
+   26  git ls-files
+   27  git status
+   28  git commit -m "1st-commit"
+   29  git status
+   30  ls -l
+   31  git ls-files
+   32  git status
+   33  git log
+   34  git branch
+   35  git remote -v
+   36  git remote add origin https://github.com/maruftech/demo.git
+   37  git remote -v
+   38  git push origin master
+   39  history
