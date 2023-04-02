@@ -1,0 +1,28 @@
+   1  apt update -y
+    2  apt list --upgradable
+    3  uname -a
+    4  uname -r
+    5  docker version
+    6  apt install docker.io -y
+    7  systemctl status docker
+    8  docker version
+    9  docker info
+   10  docker pull httpd
+   11  docker image
+   12  docker images
+   13  docker pull tomcat
+   14  docker images
+   15  docker ps
+   16  docker pull fedora
+   17  docker images
+   18  docker run -itd fedora
+   19  docker ps
+   20  docker exec -it 359f10547d1e /bin/bash
+   21  docker ps
+   22  docker images
+   23  docker inspect 192d41583429
+   24  docker run -itd -p 82:80 httpd
+   25  docker ps
+   26  docker exec -it 4b07843e546a /bin/bash
+   27  docker stats
+   28  history
