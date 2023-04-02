@@ -1,147 +1,4 @@
-   1  clear
-    2  apt update -y
-    3  clear
-    4  history
-    5  git version
-    6  git clone https://github.com/maruftech/DevOpsMaruf.git
-    7  ls -l
-    8  cd DevOpsMaruf
-    9  ls -la
-   10  cd ..
-   11  pwd
-   12  ls -la
-   13  cd DevOpsMaruf
-   14  ls -la
-   15  cd ..
-   16  mkdir project1
-   17  cd project1
-   18  git init
-   19  ls -la
-   20  touch file1.txt
-   21  vi file1.txt
-   22  git status
-   23  git branch
-   24  git add file1.txt
-   25  git status
-   26  git ls-files
-   27  git status
-   28  git commit -m "1st-commit"
-   29  git status
-   30  ls -l
-   31  git ls-files
-   32  git status
-   33  git log
-   34  git branch
-   35  git remote -v
-   36  git remote add origin https://github.com/maruftech/demo.git
-   37  git remote -v
-   38  git push origin master
-   39  history
- clear
-    2  apt update -y
-    3  clear
-    4  history
-    5  git version
-    6  git clone https://github.com/maruftech/DevOpsMaruf.git
-    7  ls -l
-    8  cd DevOpsMaruf
-    9  ls -la
-   10  cd ..
-   11  pwd
-   12  ls -la
-   13  cd DevOpsMaruf
-   14  ls -la
-   15  cd ..
-   16  mkdir project1
-   17  cd project1
-   18  git init
-   19  ls -la
-   20  touch file1.txt
-   21  vi file1.txt
-   22  git status
-   23  git branch
-   24  git add file1.txt
-   25  git status
-   26  git ls-files
-   27  git status
-   28  git commit -m "1st-commit"
-   29  git status
-   30  ls -l
-   31  git ls-files
-   32  git status
-   33  git log
-   34  git branch
-   35  git remote -v
-   36  git remote add origin https://github.com/maruftech/demo.git
-   37  git remote -v
-   38  git push origin master
-   39  history
-   40  clear
-   41  git logs
-   42  git log
-   43  vi file2.txt
-   44  ls -l
-   45  git ls-files
-   46  git status
-   47  git add file2.txt
-   48  git ls-files
-   49  git status
-   50  git commit -m "2nd commit"
-   51  git status
-   52  git ls-files
-   53  vi file2.txt
-   54  git status
-   55  git diff file2.txt
-   56  git add file2.txt
-   57  git status
-   58  git diff --staged file2.txt
-   59  git commit -m "3rd commit"
-   60  git log
-   61  git config --list
-   62  git config --global user.name "maruf"
-   63  git config --global user.email "marufeee.tech@gmail.com"
-   64  git config --list
-   65  vi file2.txt
-   66  git add file2.txt
-   67  git commit -m "4th commit"
-   68  git log
-   69  git log --oneline
-   70  git show bcdc129
-   71  ls -l
-   72  rm file1.txt
-   73  ls -l
-   74  git status
-   75  git restore file1.txt
-   76  ls -l
-   77  git status
-   78  git rm file1.txt
-   79  git ls-files
-   80  git status
-   81  git restore --staged file1.txt
-   82  git status
-   83  ls -l
-   84  git ls-files
-   85  git restore file1.txt
-   86  git status
-   87  git ls-files
-   88  git log --oneline
-   89  git show a8a0ac2
-   90  git revert a8a0ac2
-   91  git log --oneline
-   92  git show 45a9f63
-   93  git log --oneline
-   94  git reset a8a0ac2
-   95  git log --oneline
-   96  git status
-   97  git restore file2.txt
-   98  git status
-   99  git log --oneline
-  100  git show a8a0ac2
-  101  git reset --hard bcdc129
-  102  git log --oneline
-  103  git status
-  104  history
-clear
+    clear
     2  apt update -y
     3  clear
     4  history
@@ -276,3 +133,162 @@ clear
   133  git remote -v
   134  git pull
   135  history
+  136  git branch
+  137  cd ..
+  138  ls -l
+  139  cd project1
+  140  git branch
+  141  git push origin b1
+  142  git remote -v
+  143  git log --oneline
+  144  git branch
+  145  git checkout b2
+  146  git log --oneline
+  147  git rebase master
+  148  git log --oneline
+  149  git remote -v
+  150  git push origin b2
+  151  git log --oneline
+  152  git checkout master
+  153  git log --oneline
+  154  git push origin master
+  155  git log --master
+  156  git log --oneline
+  157  git remote -v
+  158  git push origin master
+  159  git checkout master
+  160  git push origin master
+  161  git checkout b2
+  162  git log --graph --pretty=oneline
+  163  git branch
+  164  git chekout master
+  165  git rebase master
+  166  git remote -v
+  167  git log --oneline
+  168  git checkout master
+  169  git log --oneline
+  170  git push origin master
+  171  git checkout b2
+  172  git branch
+  173  git rebase master
+  174  git log --oneline
+  175  git remote -v
+  176  git push origin b2
+  177  git log --oneline
+  178  git checkout master
+  179  git log --oneline
+  180  git push origin master
+  181  git checkout b2
+  182  git log --graph --pretty=oneline
+  183  git checkout master
+  184  ls -l
+  185  vi file3.txt
+  186  git add .
+  187  git commit-m "4th commit"
+  188  commit -m "4th commit"
+  189  git commit -m "4th commit"
+  190  git checkout b2
+  191  ls -l
+  192  vi b2_file1.txt
+  193  git add .
+  194  git commit -m "b2_1st-commit"
+  195  git --log oneline
+  196  git log --oneline
+  197  git checkout master
+  198  git log --oneline
+  199  git merge b2 master
+  200  got log --online
+  201  git log --graph --pretty=oneline
+  202  git checkout b2
+  203  git log --graph --pretty=online
+  204  git log --graph --pretty=oneline
+  205  git rebase master
+  206  git log --graph --pretty=oneline
+  207  git branch
+  208  ls -l
+  209  git checkout b1
+  210  git rebase master
+  211  git log --graph --pretty=oneline
+  212  ls -l
+  213  vi file4.txt
+  214  git add .
+  215  git commit -m "b1_2nd-commit"
+  216  git checkout master
+  217  git merge master
+  218  git merge b1 master
+  219  cat file4.txt
+  220  git checkout b2
+  221  ls -l
+  222  vi file4.txt
+  223  git add .
+  224  git commit -m "b2_2nd-commit"
+  225  git checkout master
+  226  git merge b2 master
+  227  vi file4.txt
+  228  git status
+  229  git add file4.txt
+  230  git status
+  231  git commit -m "file4_conflict_resolved"
+  232  git status
+  233  git log --oneline
+  234  git checkout b2
+  235  git log --oneline
+  236  git rebase master
+  237  git log --oneline
+  238  git branch
+  239  git status
+  240  git checkout master
+  241  git status
+  242  ls -l
+  243  vi file5.txt
+  244  git add .
+  245  vi file6.txt
+  246  git status
+  247  git add .
+  248  git status
+  249  git commit -m "5th commit"
+  250  vi file5.txt
+  251  vi file6.txt
+  252  ls -l
+  253  git status
+  254  git stash list
+  255  git stash
+  256  git status
+  257  git stash list
+  258  git show stash@{0}
+  259  git stash pop stash@{0}
+  260  git status
+  261  git stash list
+  262  git stash -p
+  263  git stash list
+  264  git show stash@{0}
+  265  git stash drop
+  266  git stash list
+  267  git status
+  268  git stash
+  269  git stash list
+  270  vi file4.txt
+  271  git stash
+  272  git stash list
+  273  git stash clear
+  274  git stash list
+  275  git status
+  276  vi app.log
+  277  vi readMe1st
+  278  git status
+  279  vi file7.txt
+  280  git status
+  281  git add file7.txt
+  282  git status
+  283  git commit -m "6th commit"
+  284  git status
+  285  touch .gitignore
+  286  vi .gitignore
+  287  git status
+  288  git add .
+  289  git commit -m "gitignore added"
+  290  git status
+  291  vi app.log
+  292  git status
+  293  ls -l
+  294  history
