@@ -1,0 +1,89 @@
+apt update -y
+    2  apt list --upgradable
+    3  uname -a
+    4  uname -r
+    5  docker version
+    6  apt install docker.io -y
+    7  systemctl status docker
+    8  docker version
+    9  docker info
+   10  docker pull httpd
+   11  docker image
+   12  docker images
+   13  docker pull tomcat
+   14  docker images
+   15  docker ps
+   16  docker pull fedora
+   17  docker images
+   18  docker run -itd fedora
+   19  docker ps
+   20  docker exec -it 359f10547d1e /bin/bash
+   21  docker ps
+   22  docker images
+   23  docker inspect 192d41583429
+   24  docker run -itd -p 82:80 httpd
+   25  docker ps
+   26  docker exec -it 4b07843e546a /bin/bash
+   27  docker stats
+   28  history
+   29  docker ps
+   30  exit
+   31  ls -l
+   32  docker images
+   33  docker image ls
+   34  docker ps
+   35  docker container ls
+   36  docker inspect 192d41583429
+   37  docker images
+   38  docker inspect 608294908754
+   39  docker images
+   40  docker run -itd -p 82:80 httpd
+   41  clear
+   42  docker ps
+   43  docker images
+   44  docker exec -it 192d41583429/bin/bash
+   45  docker ps
+   46  docker exec -it ab4b5b6783de/bin/bash
+   47  docker exec -it ab4b5b6783de /bin/bash
+   48  docker images
+   49  docker ps
+   50  docker commit ab4b5b6783de -t httpd_new
+   51  docker commit ab4b5b6783de httpd_new
+   52  docker images
+   53  docker exec -it ab4b5b6783de /bin/bash
+   54  docker ps
+   55  docker container ls
+   56  docker stop ab4b5b6783de
+   57  docker ps
+   58  docker ps -a
+   59  docker rm ab4b5b6783de 4b07843e546a 359f10547d1e
+   60  docker ps -s
+   61  ls -l
+   62  mkdir project1
+   63  cd project1/
+   64  touch Dockerfile
+   65  vi Dockerfile
+   66  cat Dockerfile
+   67  vi index1.htmlk
+   68  vi index1.html
+   69  vi index2.html
+   70  cat index1.html
+   71  cat index2.html
+   72  cat Dockerfile
+   73  docker build . -t httpd1
+   74  docker images
+   75  docker run -itd -p 82:80 httpd1
+   76  docker ps
+   77  ls -l
+   78  rm index1.htmlk
+   79  ls -l
+   80  cat index1.html
+   81  docker ps
+   82  docker inspect 08e0955442c8
+   83  docker network ls
+   84  docker inspect 7579e7d0b444
+   85  ls -l
+   86  docker build . -t httpd1
+   87  docker images
+   88  docker run -itd -p 82:80 httpd1
+   89  history
